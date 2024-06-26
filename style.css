@@ -1,0 +1,52 @@
+p {
+    background-color: crimson;
+}
+
+#test {
+    background-color: #4682B4;
+}
+
+.text {
+    background-color: seagreen;
+    font-size: 34px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    line-height: 1.5;
+    font-weight: 100;
+    width: 50%;
+    height: 100px;
+    border-color: #800080;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+div {
+    background-color: #FF00FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 100px; right: 100px;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: #00FFFF;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    transition: 1s;
+}
+
+a:link {
+    color: deeppink;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
